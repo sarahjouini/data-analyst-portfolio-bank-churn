@@ -43,4 +43,8 @@ bank-churn-project/
 - [ ] Query SQL per analisi mirate
 - [ ] Dashboard Power BI
 - [ ] Report finale con conclusioni
+## Risultati preliminari EDA
 
+Il numero di transazioni annuali è nettamente più basso nei clienti che abbandonano rispetto a quelli che restano:
+
+![Transazioni per stato cliente](reports/transazioni_per_stato.png)
