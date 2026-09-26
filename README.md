@@ -15,9 +15,9 @@ Quali clienti rischiano di abbandonare la banca, e quali caratteristiche li cont
 ## Struttura del progetto
 bank-churn-project/
 ├── data/
-│ ├── raw/ # dataset originale, non modificato
-│ └── processed/ # dataset pulito, pronto per l'analisi
-├── scripts/ # script Python
+│   ├── raw/
+│   └── processed/
+├── scripts/
 └── README.md
 
 ## Cosa è stato fatto finora
