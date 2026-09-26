@@ -1,0 +1,27 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("data/raw/BankChurners.csv")
+
+print(df.head())
+print(df.shape)
+print(df.columns.tolist())
+print(df.info())
+print(df['classification'].value_counts())
+print(df['Attrition_Flag'].value_counts())
+tabella = pd.crosstab(df['Attrition_Flag'], df['classification'])
+print(tabella)
+df = df.drop(columns=['classification', 'Naive_Bayes_Classifier'])
+print(df.shape)
+print(df.columns.tolist())
+print(df['CLIENTNUM'].duplicated().sum())
+print(df.describe())
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', None)
+print(df.describe().T)
+df['Avg_Utilization_Ratio'].hist(bins=20)
+plt.title('Distribuzione Avg_Utilization_Ratio')
+plt.xlabel('Utilization Ratio')
+plt.ylabel('Numero di clienti')
+plt.show()
+df.to_csv("data/processed/bank_churners_clean.csv", index=False)
