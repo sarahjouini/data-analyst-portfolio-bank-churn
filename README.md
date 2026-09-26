@@ -13,12 +13,15 @@ Quali clienti rischiano di abbandonare la banca, e quali caratteristiche li cont
 - **Target**: `Attrition_Flag` (Existing Customer / Attrited Customer)
 
 ## Struttura del progetto
+
+```
 bank-churn-project/
 ├── data/
 │   ├── raw/
 │   └── processed/
 ├── scripts/
 └── README.md
+```git commit -m "Fix formattazione struttura cartelle nel README"
 
 ## Cosa è stato fatto finora
 
