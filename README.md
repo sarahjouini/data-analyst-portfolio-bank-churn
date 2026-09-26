@@ -21,7 +21,7 @@ bank-churn-project/
 │   └── processed/
 ├── scripts/
 └── README.md
-```git commit -m "Fix formattazione struttura cartelle nel README"
+```
 
 ## Cosa è stato fatto finora
 
@@ -42,4 +42,5 @@ bank-churn-project/
 - [ ] Exploratory Data Analysis (EDA) approfondita
 - [ ] Query SQL per analisi mirate
 - [ ] Dashboard Power BI
-- [ ] Report finale con 
+- [ ] Report finale con conclusioni
+
