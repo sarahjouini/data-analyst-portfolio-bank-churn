@@ -48,3 +48,4 @@ bank-churn-project/
 Il numero di transazioni annuali è nettamente più basso nei clienti che abbandonano rispetto a quelli che restano:
 
 ![Transazioni per stato cliente](reports/transazioni_per_stato.png)
+print(df.groupby('Attrition_Flag')['Total_Relationship_Count'].mean())
