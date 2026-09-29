@@ -48,4 +48,17 @@ bank-churn-project/
 Il numero di transazioni annuali è nettamente più basso nei clienti che abbandonano rispetto a quelli che restano:
 
 ![Transazioni per stato cliente](reports/transazioni_per_stato.png)
-print(df.groupby('Attrition_Flag')['Total_Relationship_Count'].mean())
+## Analisi SQL
+
+Le stesse domande di business sono state verificate anche con query SQL su SQL Server (vedi `sql/analisi_churn.sql`):
+- Tasso di abbandono complessivo
+- Confronto transazioni e relazioni bancarie tra clienti rimasti e abbandonati
+- Tasso di abbandono per fascia di reddito
+
+## Dashboard Power BI
+
+Dashboard interattiva con i risultati principali dell'analisi:
+
+![Dashboard Power BI](reports/dashboard_powerbi.png)
+
+Il file sorgente è disponibile in `dashboard/bank_churn_dashboard.pbix`.
