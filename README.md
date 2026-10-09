@@ -37,12 +37,7 @@ bank-churn-project/
 - Python (pandas, matplotlib)
 - Git / GitHub
 
-## Prossimi passi
 
-- [ ] Exploratory Data Analysis (EDA) approfondita
-- [ ] Query SQL per analisi mirate
-- [ ] Dashboard Power BI
-- [ ] Report finale con conclusioni
 ## Risultati preliminari EDA
 
 Il numero di transazioni annuali è nettamente più basso nei clienti che abbandonano rispetto a quelli che restano:
